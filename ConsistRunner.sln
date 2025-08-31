@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsistRunner", "src\ConsistRunner\ConsistRunner.csproj", "{16B6853B-DF2F-4B27-B841-60C9A0B89BE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{2022CB0F-8BAF-F49E-0C48-8EF4C96EC109}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{DDB4EF12-CC4E-5E88-E6FC-71A802F4DE97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoReplacer", "Tools\InnoReplacer\InnoReplacer.csproj", "{5785A331-8861-4C6E-BC23-8B4CEACD2275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoReplacerTests", "Tools\InnoReplacerTests\InnoReplacerTests.csproj", "{35DE622A-7740-4651-BC27-561E825082D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AE67F7D9-C9D2-4690-8A57-F671A567FA87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{D45D93E1-9278-462B-BE03-7D84B750524D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsistRunnerTests", "src\ConsistRunnerTests\ConsistRunnerTests.csproj", "{8B2E1C1E-0547-45F2-84F7-5956E8657666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16B6853B-DF2F-4B27-B841-60C9A0B89BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B6853B-DF2F-4B27-B841-60C9A0B89BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B6853B-DF2F-4B27-B841-60C9A0B89BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B6853B-DF2F-4B27-B841-60C9A0B89BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5785A331-8861-4C6E-BC23-8B4CEACD2275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5785A331-8861-4C6E-BC23-8B4CEACD2275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5785A331-8861-4C6E-BC23-8B4CEACD2275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5785A331-8861-4C6E-BC23-8B4CEACD2275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DE622A-7740-4651-BC27-561E825082D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DE622A-7740-4651-BC27-561E825082D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DE622A-7740-4651-BC27-561E825082D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DE622A-7740-4651-BC27-561E825082D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2E1C1E-0547-45F2-84F7-5956E8657666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2E1C1E-0547-45F2-84F7-5956E8657666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2E1C1E-0547-45F2-84F7-5956E8657666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2E1C1E-0547-45F2-84F7-5956E8657666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16B6853B-DF2F-4B27-B841-60C9A0B89BE1} = {AE67F7D9-C9D2-4690-8A57-F671A567FA87}
+		{5785A331-8861-4C6E-BC23-8B4CEACD2275} = {DDB4EF12-CC4E-5E88-E6FC-71A802F4DE97}
+		{35DE622A-7740-4651-BC27-561E825082D2} = {DDB4EF12-CC4E-5E88-E6FC-71A802F4DE97}
+		{8B2E1C1E-0547-45F2-84F7-5956E8657666} = {AE67F7D9-C9D2-4690-8A57-F671A567FA87}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F5BC695-7699-4775-99AA-9D2E8CF80B05}
+	EndGlobalSection
+EndGlobal

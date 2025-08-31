@@ -1,0 +1,103 @@
+# =========================
+# Build results
+# =========================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Oo]ut/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Test results
+# =========================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+
+# =========================
+# NuGet
+# =========================
+# PackageReference を使用しているため packages/ は不要
+*.nupkg
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# NuGet packages フォルダ（旧形式）
+packages/
+
+# Paket
+.paket/
+paket-files/
+
+# =========================
+# ReSharper / Rider
+# =========================
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Others
+# =========================
+*.swp
+*.bak
+*.tmp
+*.log
+*.dbmdl
+*.jfm
+
+# Publish outputs
+publish/
+*.Publish.xml
+
+# StyleCop
+StyleCopReport.xml
+
+# =========================
+# Inno Setup
+# =========================
+# インストーラの exe 出力を除外
+*.exe
+
+# Inno Setup のバックアップファイル
+*.iss~
+
+# 出力ディレクトリ（任意で利用する場合）
+Output/
+
+# =========================
+# Keep essentials
+# =========================
+!*.cs
+!*.csproj
+!*.sln
+!*.config
+!*.json
+!*.xml
+!*.md
+!LICENSE*
+!README*
